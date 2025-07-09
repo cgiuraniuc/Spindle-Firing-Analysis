@@ -1,5 +1,8 @@
 function [ ] = BinTh(p1,freq,sr,rep,crit,timeS,ftype1,ftype2)
 
+% Author: Claudiu Giuraniuc, University of Aberdeen
+% Contact: v.c.giuraniuc@abdn.ac.uk
+
 r=10;
 
 %% Identify files of interest
