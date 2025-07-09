@@ -1,7 +1,7 @@
 function [ ] = RampAnalysis(p1,st,h1,h2,rel,p2,rep,crit,timeS,ftype1,ftype2)
 
 % Author: Claudiu Giuraniuc, University of Aberdeen
-% Contact: [optional email or GitHub link]
+% Contact: v.c.giuraniuc@abdn.ac.uk
 
 r=10;
 
