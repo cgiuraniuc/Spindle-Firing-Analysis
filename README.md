@@ -9,11 +9,11 @@ The code identifies the onset of sustained afferent firing by comparing short-te
 
 Outputs include: (1) raw phase-wise rates for each repetition; (2) background-corrected values; and (3) file-wise averages. The method balances robustness and flexibility, allowing adjustment of thresholds and durations to accommodate variability in signal quality or pharmacological effects.
 
-Example of command lines in MATLAB:
-RampV11(1,1,1,2,1,4,4,10,2,'c','Ramp')
-SawV9(0.1,5,5,10,10,1,'C','Saw5Hz');
-SawV9(0.1,0.2,5,10,10,1,'C','Saw0.2Hz');
-SawV9(0.1,1,5,10,10,1,'C','Saw1Hz');
+Example of command lines in MATLAB to run the codes:
+RampAnalysis(1,1,1,2,1,4,4,10,2,'c','Ramp')
+SawAnalysis(0.1,5,5,10,10,1,'C','Saw5Hz');
+SawAnalysis(0.1,0.2,5,10,10,1,'C','Saw0.2Hz');
+SawAnalysis(0.1,1,5,10,10,1,'C','Saw1Hz');
 
 The first parameters describe the type of stretch, including frequency, number of repeats, hold and pauses. For correct identification, the time the firing must be sustained and how much over the background (the last two numerical parameters) must be manually adjusted to correctly identify different regimes: control, agonists and antagonists. The firing start as identified by the code is marked by a coloured circle on the plot.
 
